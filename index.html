@@ -37,6 +37,17 @@
             animation: fadeInDown 0.8s ease;
         }
 
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            border: 7px solid #667eea;
+            box-shadow: 0 20px 30px rgba(102, 126, 234, 0.3);
+            object-fit: none;
+            display: block;
+        }
+
         h1 {
             font-size: 3em;
             background: linear-gradient(135deg, #667eea, #764ba2);
@@ -254,10 +265,10 @@
 <body>
     <div class="container">
         <header>
+            <img src="/profile.png" alt="Tuğçe Eş" class="profile-photo">
             <h1>TUĞÇE EŞ</h1>
             <p class="subtitle">Business Analyst | Software Tester | Software Developer</p>
             <div class="contact-links">
-                <a href="tel:05510170804"><i class="fas fa-phone"></i> 0551 017 08 04</a>
                 <a href="mailto:estugce.34@gmail.com"><i class="fas fa-envelope"></i> estugce.34@gmail.com</a>
                 <a href="https://www.linkedin.com/in/tugce-es-59b860239/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
                 <a href="https://github.com/tugces34" target="_blank"><i class="fab fa-github"></i> GitHub</a>
@@ -266,7 +277,9 @@
 
         <section class="section">
             <h2><i class="fas fa-user"></i> Profil</h2>
-            <p>Kendimi iş analizi, yazılım test süreçleri ve yazılım geliştirme alanlarında geliştirmek istiyorum. Üniversite eğitimim süresince veri analizi, iş analizi ve proje yönetimi hakkında temel bilgiler edindim; çeşitli eğitim programları ve projeler aracılığıyla pratik deneyim kazandım. Test senaryoları ve test caseleri yazma konusunda pratikler yaptım. İş analisti, manuel tester ve yazılım geliştirici pozisyonlarında görev almayı istiyorum.</p>
+            <div class="education-item">
+                <p>Kendimi iş analizi, yazılım test süreçleri ve yazılım geliştirme alanlarında geliştirmek istiyorum. Üniversite eğitimim süresince veri analizi, iş analizi ve proje yönetimi hakkında temel bilgiler edindim; çeşitli eğitim programları ve projeler aracılığıyla pratik deneyim kazandım. Test senaryoları ve test caseleri yazma konusunda pratikler yaptım. Yapay zekâ teknolojilerini geliştirme süreçlerine entegre ederek hızlı ve yenilikçi çözümler üretebiliyorum.İş analisti, manuel tester ve yazılım geliştirici pozisyonlarında görev almayı istiyorum.</p>
+            </div>
         </section>
 
         <section class="section">
@@ -274,8 +287,8 @@
             <div class="education-item">
                 <h3>Medipol Üniversitesi</h3>
                 <p><strong>Yönetim Bilişim Sistemleri</strong> | 2023 - 2026</p>
-                <p><strong>Not Ortalaması:</strong> 3.19 / 4.00</p>
-                <p><strong>Konular:</strong> Veri analizi, iş süreçleri, veri görselleştirme, raporlama, istatistik, temel programlama, proje yönetimi, müşteri ilişkileri, iş zekası, yapay zeka, OOP</p>
+                <p><strong>Not Ortalaması:</strong> 3.29 / 4.00</p>
+                <p><strong>Konular:</strong> Veri analizi, iş Analizi, veri görselleştirme ve raporlama, istatistik, temel programlama, proje yönetimi, CRM , iş zekası, OOP</p>
             </div>
         </section>
 
@@ -296,7 +309,7 @@
 
             <div class="experience-item">
                 <h3>Masqot Yapay Zeka Dijital İçerik Platformu</h3>
-                <p class="date">Jr. İş Geliştirme Uzmanı | Şubat 2025 - Devam Ediyor (Freelance)</p>
+                <p class="date">Jr. İş Geliştirme Uzmanı | Şubat 2025 -Ağustos 2026 (Freelance)</p>
             </div>
 
             <div class="experience-item">
@@ -306,7 +319,7 @@
 
             <div class="experience-item">
                 <h3>Medipol Üniversitesi Robotic and Computer Science Club</h3>
-                <p class="date">Üye İlişkileri Takım Lideri | 2025 - Devam Ediyor</p>
+                <p class="date">Üye İlişkileri Takım Lideri | 2025</p>
             </div>
         </section>
 
@@ -317,7 +330,7 @@
                     <h3>Programlama Dilleri</h3>
                     <div class="skill-item">SQL</div>
                     <div class="skill-item">Python</div>
-                    <div class="skill-item">C#</div>
+                    <div class="skill-item">Javascript </div>
                     <div class="skill-item">HTML</div>
                     <div class="skill-item">CSS</div>
                     <div class="skill-item">Node.js</div>
@@ -345,6 +358,8 @@
                     <div class="skill-item">ClickUp</div>
                     <div class="skill-item">TestRail</div>
                     <div class="skill-item">Git & GitHub</div>
+                    <div class="skill-item">HubSpot</div>
+                    <div class="skill-item">CRM</div>
                     <div class="skill-item">Agile</div>
                     <div class="skill-item">SWOT Analizi</div>
                 </div>
@@ -373,12 +388,11 @@
         <section class="section">
             <h2><i class="fas fa-certificate"></i> Sertifikalar & Eğitimler</h2>
             <div class="certificate-tags">
+                <span class="certificate-tag">Javascript Fundamentals- CODDY(2025)</span>
                 <span class="certificate-tag">Test Otomasyon Patikası - Kodluyoruz (2025)</span>
                 <span class="certificate-tag">Node.js ile Web Programlama (2025)</span>
                 <span class="certificate-tag">Docker Eğitimi - BTK Akademi (2025)</span>
                 <span class="certificate-tag">SQL Eğitimi - BTK Akademi (2025)</span>
-                <span class="certificate-tag">Microsoft Azure Fundamentals - Miuul (Devam Ediyor)</span>
-                <span class="certificate-tag">Machine Learning - Miuul (Devam Ediyor)</span>
                 <span class="certificate-tag">Data Analytics Essential - Cisco (2025)</span>
                 <span class="certificate-tag">Power BI Masterclass - EnSight (2025)</span>
                 <span class="certificate-tag">E2E API Automation & Load Test - Techcareer (2025)</span>
